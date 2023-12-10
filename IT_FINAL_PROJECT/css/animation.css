@@ -1,0 +1,10 @@
+html, body{
+    scroll-behavior: smooth;
+}
+.hyperlink-style {
+    transition: 200ms;
+}
+
+.hover:hover {
+    font-size: 30px;
+}

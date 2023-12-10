@@ -1,0 +1,181 @@
+/*Default Setting*/
+p, h1, h2, h3 {
+    margin: 0%;
+}
+.hyperlink-style {
+    text-decoration: none;
+    color: inherit;
+    transition: 200ms;
+}
+
+html, body {
+    height: 100%;
+}
+html, body{
+    margin: 0px 0px;
+    font-size: 25px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    line-height: 1.5cm;
+    color: white;
+    scroll-behavior: smooth;
+    background-color: black;
+    
+}
+.base-top, .topic, .base-second {   /*Parralox Scrolling effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+}
+
+
+.base-top {
+    background-image: url(../image/image_7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;/*70%*/
+    margin-top: -160px;
+}
+
+
+
+/* logo top-base*/
+.title-nav  {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    top: 0%;
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+}
+.title-nav {
+    background-color: rgba(0, 0, 0, 0.815);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+/* logo top- LOGO*/
+.nav-logo {
+    width: 170px;
+    height: 100%;
+    padding-left: 150px;
+}
+.nav-logo img {
+    margin-left: 43px;
+    margin-right: 50px;
+
+}
+
+.nav-logo h3 {
+    line-height: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*nav right button*/
+.nav-button {
+    margin-right: 100px;
+    
+}
+.nav-button nav {
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.nav-button a {
+    margin-left: 2rem;
+    font-weight: 600;
+}
+
+/*COMPUTER NETWORK AND SECURITY*/
+.large-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    align-content: center;
+}
+
+.large-intro h1 {
+    font-style: italic;
+    font-size: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom-color: white;
+    border: 2px black; 
+}
+
+/*second part*/
+.base-second {
+    display: flex;
+    box-sizing: content-box;
+    background-image: url(../image/image_7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60%;/*70%*/
+}
+
+.second-base {
+    background-color: rgba(0, 0, 0, 0.932);
+    color: white;
+    width: 90%;
+    height: 480px;
+    margin: auto;
+    border: 2px solid rgba(44, 44, 44, 0.575);
+    border-radius: 25px;
+        
+}
+.second-base h4 {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0%;
+    font-size: 40px;
+
+}
+.second-base div {
+    display: inline-block;
+    text-align: center;
+}
+.paragraph {
+    width: 57%;
+    font-size: 22px;
+    line-height: 1cm;
+    padding: 15px;
+}
+.paragraph p {
+    
+
+/*Topic*/
+.topic {
+    padding-top: 0px;
+    background-image: url(../image/image_7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;/*70%*/
+}
+
+.topic div {
+    display: inline-flex;
+    padding-right: 100px;
+    
+}
+.topic div {
+    padding-left: 100px;
+}
+
+/*Footer*/
+
+.footer { 
+    background-color: black;font-size: large;
+    padding-top: 5px;
+}
+.footer h6, .footer table {
+    margin: 0%;
+    padding-left: 100px;
+    line-height: 0.8cm;
+    width: 400px;
+}
